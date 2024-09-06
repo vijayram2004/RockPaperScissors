@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+.top{
+    background-color: darkslateblue;
+    text-align: center;
+    line-height: 4em;
+    height:4em;
+    width:auto;
+    margin:0;
+
+}
+.second{
+    
+    height:100vh;
+    width: 100%;
+}
+.choices{
+    display:flex;
+    margin-top: 5%;
+    justify-content: center;
+    height: 10em;
+    width:auto;
+    align-items: center;
+}
+.choice{
+    margin-left: 5%;
+    border-radius: 50%;
+
+}
+.choice:hover{
+    cursor:pointer;
+    border:0.5em solid black;
+   
+}
+#rock{
+    height: 10em;
+    width:10em;
+    background-color:skyblue;
+   text-align: center;
+   line-height: 6em;
+
+}
+#paper{
+    height: 10em;
+    width:10em;
+    background-color: yellow;
+    text-align: center;
+    line-height: 6em;
+ 
+
+}
+#scissor{
+    height: 10em;
+    width:10em;
+    background-color: pink;
+    text-align: center;
+    line-height: 6em;
+ }
+ .board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap:2em;
+    font-size: 2em;
+    margin-bottom: 1em;
+    
+  
+
+ }
+ .score{
+    margin: 0;
+    padding: 0;
+    font-size:2em;
+ }
+ .msg{
+    margin:1em;
+    background-color: black;
+    color: white;
+    display: inline;
+    font-size: 3em;
+    padding: 0.2em;
+    border-radius: 3%;
+ }
+
+ 
